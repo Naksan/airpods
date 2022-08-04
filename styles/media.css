@@ -1,0 +1,39 @@
+@media(max-width: 992px) {
+    .main__part-line::before, ::after{
+        display: none;
+    }
+
+    .main__part-menu {
+        width: 49.5%;
+    }
+
+    .main__part-bottom {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+}
+
+@media(max-width: 768px) {
+    .main__part-first, .main__part-second {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sub {
+        order: -1;
+        padding-left: unset;
+    }
+       
+    .main__part-third {
+        flex-wrap: wrap;
+    }
+
+    .subsec {
+        text-align: left;
+    }
+    .main__part-img {
+       display: flex;
+       align-items: center;
+    }
+
+}
